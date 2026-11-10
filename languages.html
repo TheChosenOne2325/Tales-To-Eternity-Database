@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Languages · Tales To Eternity</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-base="">
+<header class="topo">
+  <a class="marca" href="index.html"><img class="marca-icone" src="img/tales-to-eternity.svg" alt="" width="512" height="512" data-inicial="T"><span>Tales To Eternity</span></a>
+  <nav class="menu"><a href="index.html">Home</a><a href="livros/index.html">Books</a><div class="menu-grupo"><button type="button" class="ativo" aria-expanded="false">Character <span aria-hidden="true">▾</span></button><div class="submenu"><a href="races.html">Races</a><a href="classes.html">Classes</a><a href="specializations.html">Specializations</a><a href="skills.html">Skills</a><a href="languages.html" class="ativo">Languages</a></div></div><a href="items.html">Items</a><a href="spells.html">Spells</a><div class="menu-grupo"><button type="button" class="" aria-expanded="false">Monsters <span aria-hidden="true">▾</span></button><div class="submenu"><a href="monsters.html">Bestiary</a><a href="monster-abilities.html">Monster Abilities</a><a href="encounters.html">Encounter Builder</a></div></div><div class="menu-grupo"><button type="button" class="" aria-expanded="false">Rules <span aria-hidden="true">▾</span></button><div class="submenu"><a href="actions.html">Actions</a><a href="conditions.html">Conditions</a><a href="damage-types.html">Damage Types</a></div></div><a href="versions.html">Versions</a></nav>
+  <form class="busca" action="busca.html" role="search">
+    <input type="search" name="q" placeholder="Search the site…" aria-label="Search" autocomplete="off" data-busca>
+    <div class="resultados" hidden></div>
+  </form>
+</header>
+<main><div class="banco" style="--grade:minmax(0, 1fr) minmax(70px, .6fr) 64px;--grade-celular:minmax(0, 1fr) minmax(60px, .6fr) 48px">
+<section class="lista">
+  <div class="lista-titulo"><img class="icone mini" src="img/languages.svg" alt="" width="512" height="512" data-inicial="L"><h1>Languages</h1></div>
+  <div class="lista-busca">
+    <button type="button" class="botao-filtro" aria-expanded="false" data-abrir-filtro>Filter</button>
+    <input type="search" placeholder="Find languages…" aria-label="Find" data-filtro-texto>
+    <button type="button" class="botao-limpar" data-limpar title="Reset search and filters">Reset</button>
+  </div>
+  <div class="painel-filtro" hidden data-painel-filtro></div>
+  <div class="filtros-ativos" data-filtros-ativos></div>
+  <div class="lista-cabecalho" data-cabecalho></div>
+  <div class="lista-linhas" data-linhas role="listbox" tabindex="0" aria-label="Languages"></div>
+  <p class="lista-contagem" data-contagem></p>
+</section>
+<section class="ficha" data-ficha aria-live="polite"></section>
+</div></main>
+<footer class="rodape">Tales To Eternity · <a href="versions.html">Version 1.0</a></footer>
+<script src="busca.js"></script>
+<script src="fichas.js"></script>
+<script>window.TTE_BANCO = {"titulo":"Languages","colunas":[{"campo":"language","titulo":"Language"}],"filtros":[],"fontes":{"FTC":"Fragments Of The Cosmos","COC":"Creation Of The Cosmos","ROC":"Rupture Of The Cosmos"},"itens":[{"id":"bretonic","nome":"Bretonic","fonte":"FTC","icone":null,"tipo":"Dialect · Common","campos":{"language":"Common"},"html":"\u003cp>A dialect of the \u003cstrong>Common\u003c/strong> language. Creatures that speak dialects of the same language can understand each other.\u003c/p>\n\u003cp>\u003cstrong>Same language as:\u003c/strong> \u003ca class=\"tag\" href=\"languages.html#common\" data-pop=\"language:common\">Common\u003c/a>\u003c/p>\n\u003cp>\u003cstrong>Spoken by:\u003c/strong> \u003ca class=\"tag\" href=\"races.html#bretonic-human\" data-pop=\"race:bretonic-human\">Bretonic Human\u003c/a>\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#language"}},{"id":"common","nome":"Common","fonte":"FTC","icone":null,"tipo":"Dialect · Common","campos":{"language":"Common"},"html":"\u003cp>A dialect of the \u003cstrong>Common\u003c/strong> language. Creatures that speak dialects of the same language can understand each other.\u003c/p>\n\u003cp>\u003cstrong>Same language as:\u003c/strong> \u003ca class=\"tag\" href=\"languages.html#bretonic\" data-pop=\"language:bretonic\">Bretonic\u003c/a>\u003c/p>\n\u003cp>\u003cstrong>Spoken by:\u003c/strong> \u003ca class=\"tag\" href=\"races.html#hill-dwarf\" data-pop=\"race:hill-dwarf\">Hill Dwarf\u003c/a>, \u003ca class=\"tag\" href=\"races.html#arcane-elf\" data-pop=\"race:arcane-elf\">Arcane Elf\u003c/a>, \u003ca class=\"tag\" href=\"races.html#farmland-gnome\" data-pop=\"race:farmland-gnome\">Farmland Gnome\u003c/a>, \u003ca class=\"tag\" href=\"races.html#bretonic-human\" data-pop=\"race:bretonic-human\">Bretonic Human\u003c/a>, \u003ca class=\"tag\" href=\"races.html#forest-orc\" data-pop=\"race:forest-orc\">Forest Orc\u003c/a>\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#language"}},{"id":"dwarvish","nome":"Dwarvish","fonte":"FTC","icone":null,"tipo":"Dialect · Dwarf","campos":{"language":"Dwarf"},"html":"\u003cp>A dialect of the \u003cstrong>Dwarf\u003c/strong> language. Creatures that speak dialects of the same language can understand each other.\u003c/p>\n\u003cp>\u003cstrong>Same language as:\u003c/strong> \u003ca class=\"tag\" href=\"languages.html#gnomish\" data-pop=\"language:gnomish\">Gnomish\u003c/a>\u003c/p>\n\u003cp>\u003cstrong>Spoken by:\u003c/strong> \u003ca class=\"tag\" href=\"races.html#hill-dwarf\" data-pop=\"race:hill-dwarf\">Hill Dwarf\u003c/a>\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#language"}},{"id":"elvish","nome":"Elvish","fonte":"FTC","icone":null,"tipo":"Dialect · Elf","campos":{"language":"Elf"},"html":"\u003cp>A dialect of the \u003cstrong>Elf\u003c/strong> language. Creatures that speak dialects of the same language can understand each other.\u003c/p>\n\u003cp>\u003cstrong>Spoken by:\u003c/strong> \u003ca class=\"tag\" href=\"races.html#arcane-elf\" data-pop=\"race:arcane-elf\">Arcane Elf\u003c/a>\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#language"}},{"id":"gnomish","nome":"Gnomish","fonte":"FTC","icone":null,"tipo":"Dialect · Dwarf","campos":{"language":"Dwarf"},"html":"\u003cp>A dialect of the \u003cstrong>Dwarf\u003c/strong> language. Creatures that speak dialects of the same language can understand each other.\u003c/p>\n\u003cp>\u003cstrong>Same language as:\u003c/strong> \u003ca class=\"tag\" href=\"languages.html#dwarvish\" data-pop=\"language:dwarvish\">Dwarvish\u003c/a>\u003c/p>\n\u003cp>\u003cstrong>Spoken by:\u003c/strong> \u003ca class=\"tag\" href=\"races.html#farmland-gnome\" data-pop=\"race:farmland-gnome\">Farmland Gnome\u003c/a>\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#language"}},{"id":"orcish","nome":"Orcish","fonte":"FTC","icone":null,"tipo":"Dialect · Orc","campos":{"language":"Orc"},"html":"\u003cp>A dialect of the \u003cstrong>Orc\u003c/strong> language. Creatures that speak dialects of the same language can understand each other.\u003c/p>\n\u003cp>\u003cstrong>Spoken by:\u003c/strong> \u003ca class=\"tag\" href=\"races.html#forest-orc\" data-pop=\"race:forest-orc\">Forest Orc\u003c/a>\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#language"}}],"retrato":false};</script>
+<script src="app.js"></script>
+</body>
+</html>

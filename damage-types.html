@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Damage Types · Tales To Eternity</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-base="">
+<header class="topo">
+  <a class="marca" href="index.html"><img class="marca-icone" src="img/tales-to-eternity.svg" alt="" width="512" height="512" data-inicial="T"><span>Tales To Eternity</span></a>
+  <nav class="menu"><a href="index.html">Home</a><a href="livros/index.html">Books</a><div class="menu-grupo"><button type="button" class="" aria-expanded="false">Character <span aria-hidden="true">▾</span></button><div class="submenu"><a href="races.html">Races</a><a href="classes.html">Classes</a><a href="specializations.html">Specializations</a><a href="skills.html">Skills</a><a href="languages.html">Languages</a></div></div><a href="items.html">Items</a><a href="spells.html">Spells</a><div class="menu-grupo"><button type="button" class="" aria-expanded="false">Monsters <span aria-hidden="true">▾</span></button><div class="submenu"><a href="monsters.html">Bestiary</a><a href="monster-abilities.html">Monster Abilities</a><a href="encounters.html">Encounter Builder</a></div></div><div class="menu-grupo"><button type="button" class="ativo" aria-expanded="false">Rules <span aria-hidden="true">▾</span></button><div class="submenu"><a href="actions.html">Actions</a><a href="conditions.html">Conditions</a><a href="damage-types.html" class="ativo">Damage Types</a></div></div><a href="versions.html">Versions</a></nav>
+  <form class="busca" action="busca.html" role="search">
+    <input type="search" name="q" placeholder="Search the site…" aria-label="Search" autocomplete="off" data-busca>
+    <div class="resultados" hidden></div>
+  </form>
+</header>
+<main><div class="banco" style="--grade:minmax(0, 1fr) 64px;--grade-celular:minmax(0, 1fr) 48px">
+<section class="lista">
+  <div class="lista-titulo"><img class="icone mini" src="img/damage-types.svg" alt="" width="512" height="512" data-inicial="D"><h1>Damage Types</h1></div>
+  <div class="lista-busca">
+    <button type="button" class="botao-filtro" aria-expanded="false" data-abrir-filtro>Filter</button>
+    <input type="search" placeholder="Find damage types…" aria-label="Find" data-filtro-texto>
+    <button type="button" class="botao-limpar" data-limpar title="Reset search and filters">Reset</button>
+  </div>
+  <div class="painel-filtro" hidden data-painel-filtro></div>
+  <div class="filtros-ativos" data-filtros-ativos></div>
+  <div class="lista-cabecalho" data-cabecalho></div>
+  <div class="lista-linhas" data-linhas role="listbox" tabindex="0" aria-label="Damage Types"></div>
+  <p class="lista-contagem" data-contagem></p>
+</section>
+<section class="ficha" data-ficha aria-live="polite"></section>
+</div></main>
+<footer class="rodape">Tales To Eternity · <a href="versions.html">Version 1.0</a></footer>
+<script src="busca.js"></script>
+<script src="fichas.js"></script>
+<script>window.TTE_BANCO = {"titulo":"Damage Types","colunas":[],"filtros":[],"fontes":{"FTC":"Fragments Of The Cosmos","COC":"Creation Of The Cosmos","ROC":"Rupture Of The Cosmos"},"itens":[{"id":"blunt","nome":"Blunt","fonte":"FTC","icone":null,"tipo":"Damage Type","campos":{},"html":"\u003cp>Damage caused by impact, crushing force, or heavy pressure, such as hammers, falls, or powerful strikes.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#damage-types"}},{"id":"cut","nome":"Cut","fonte":"FTC","icone":null,"tipo":"Damage Type","campos":{},"html":"\u003cp>Damage caused by edges that slice or tear through a target, such as swords, axes, or claws.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#damage-types"}},{"id":"thrust","nome":"Thrust","fonte":"FTC","icone":null,"tipo":"Damage Type","campos":{},"html":"\u003cp>Damage caused by a concentrated point piercing a target, such as spears, arrows, or other pointed Weapons.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#damage-types"}},{"id":"blast","nome":"Blast","fonte":"FTC","icone":null,"tipo":"Damage Type","campos":{},"html":"\u003cp>Damage caused by explosive force, shockwaves, intense sound, or sudden pressure.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#damage-types"}},{"id":"heat","nome":"Heat","fonte":"FTC","icone":null,"tipo":"Damage Type","campos":{},"html":"\u003cp>Damage caused by fire, extreme temperatures, or other sources of intense heat.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#damage-types"}},{"id":"freeze","nome":"Freeze","fonte":"FTC","icone":null,"tipo":"Damage Type","campos":{},"html":"\u003cp>Damage caused by extreme cold, ice, or effects that rapidly drain heat from the target.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#damage-types"}},{"id":"arcane","nome":"Arcane","fonte":"FTC","icone":null,"tipo":"Damage Type","campos":{},"html":"\u003cp>Damage caused directly by raw magical energy and supernatural forces.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#damage-types"}},{"id":"lightning","nome":"Lightning","fonte":"FTC","icone":null,"tipo":"Damage Type","campos":{},"html":"\u003cp>Damage caused by electricity, lightning, or powerful electrical discharges.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#damage-types"}}],"retrato":false};</script>
+<script src="app.js"></script>
+</body>
+</html>

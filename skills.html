@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skills · Tales To Eternity</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-base="">
+<header class="topo">
+  <a class="marca" href="index.html"><img class="marca-icone" src="img/tales-to-eternity.svg" alt="" width="512" height="512" data-inicial="T"><span>Tales To Eternity</span></a>
+  <nav class="menu"><a href="index.html">Home</a><a href="livros/index.html">Books</a><div class="menu-grupo"><button type="button" class="ativo" aria-expanded="false">Character <span aria-hidden="true">▾</span></button><div class="submenu"><a href="races.html">Races</a><a href="classes.html">Classes</a><a href="specializations.html">Specializations</a><a href="skills.html" class="ativo">Skills</a><a href="languages.html">Languages</a></div></div><a href="items.html">Items</a><a href="spells.html">Spells</a><div class="menu-grupo"><button type="button" class="" aria-expanded="false">Monsters <span aria-hidden="true">▾</span></button><div class="submenu"><a href="monsters.html">Bestiary</a><a href="monster-abilities.html">Monster Abilities</a><a href="encounters.html">Encounter Builder</a></div></div><div class="menu-grupo"><button type="button" class="" aria-expanded="false">Rules <span aria-hidden="true">▾</span></button><div class="submenu"><a href="actions.html">Actions</a><a href="conditions.html">Conditions</a><a href="damage-types.html">Damage Types</a></div></div><a href="versions.html">Versions</a></nav>
+  <form class="busca" action="busca.html" role="search">
+    <input type="search" name="q" placeholder="Search the site…" aria-label="Search" autocomplete="off" data-busca>
+    <div class="resultados" hidden></div>
+  </form>
+</header>
+<main><div class="banco" style="--grade:minmax(0, 1fr) 64px;--grade-celular:minmax(0, 1fr) 48px">
+<section class="lista">
+  <div class="lista-titulo"><img class="icone mini" src="img/skills.svg" alt="" width="512" height="512" data-inicial="S"><h1>Skills</h1></div>
+  <div class="lista-busca">
+    <button type="button" class="botao-filtro" aria-expanded="false" data-abrir-filtro>Filter</button>
+    <input type="search" placeholder="Find skills…" aria-label="Find" data-filtro-texto>
+    <button type="button" class="botao-limpar" data-limpar title="Reset search and filters">Reset</button>
+  </div>
+  <div class="painel-filtro" hidden data-painel-filtro></div>
+  <div class="filtros-ativos" data-filtros-ativos></div>
+  <div class="lista-cabecalho" data-cabecalho></div>
+  <div class="lista-linhas" data-linhas role="listbox" tabindex="0" aria-label="Skills"></div>
+  <p class="lista-contagem" data-contagem></p>
+</section>
+<section class="ficha" data-ficha aria-live="polite"></section>
+</div></main>
+<footer class="rodape">Tales To Eternity · <a href="versions.html">Version 1.0</a></footer>
+<script src="busca.js"></script>
+<script src="fichas.js"></script>
+<script>window.TTE_BANCO = {"titulo":"Skills","colunas":[],"filtros":[],"fontes":{"FTC":"Fragments Of The Cosmos","COC":"Creation Of The Cosmos","ROC":"Rupture Of The Cosmos"},"itens":[{"id":"acrobatics","nome":"Acrobatics","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Keeping your balance, tumbling, flipping, and landing safely from falls.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"coordination","nome":"Coordination","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Performing tasks that demand precise, synchronized movements, such as juggling, catching, or doing two things at once.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"deception","nome":"Deception","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Lying convincingly, disguising your intentions, and misleading others.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"gymnastics","nome":"Gymnastics","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Climbing, jumping, swimming, and other feats of physical exertion.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"insight","nome":"Insight","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Reading people, sensing their true intentions, and noticing when someone is lying.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"intimidation","nome":"Intimidation","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Influencing others through threats, fear, or a show of force.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"investigation","nome":"Investigation","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Searching for clues, analyzing evidence, and drawing conclusions.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"lore","nome":"Lore","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Knowledge of history, legends, ancient cultures, and the world&#39;s past.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"medicine","nome":"Medicine","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Treating wounds, diagnosing illnesses, and stabilizing the injured.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"mysticism","nome":"Mysticism","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Knowledge of magic, the arcane, the divine, and supernatural phenomena.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"perception","nome":"Perception","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Noticing your surroundings, spotting hidden things, and hearing faint sounds.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"persuasion","nome":"Persuasion","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Convincing others through reason, diplomacy, and charm.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"society","nome":"Society","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Knowledge of politics, laws, customs, and social structures.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"stealth","nome":"Stealth","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Moving silently, hiding, and staying unnoticed.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"survival","nome":"Survival","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Tracking, foraging, navigating, and enduring the wilderness.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}},{"id":"thievery","nome":"Thievery","fonte":"FTC","icone":null,"tipo":"Skill","campos":{},"html":"\u003cp>Picking locks, disarming traps, and picking pockets.\u003c/p>\n","origem":{"titulo":"Fragments Of The Cosmos","url":"livros/fragments-of-the-cosmos.html#skill-list"}}],"retrato":false};</script>
+<script src="app.js"></script>
+</body>
+</html>
